@@ -1,0 +1,46 @@
+<?php
+$dbHost = 'db4free.net:3306';
+$dbUsername = 'isaroot';
+$dbPassword = 'isabella0223';
+$dbName = 'localhostisa';
+    
+  $conexao = new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
+?>
+
+/*
+Tabela: biblio_estoque
+id_livro
+titulo_livro
+autor_livro
+genero_livro
+qtd_livro
+
+Tabela: usuario
+id_aluno
+nome
+sobrenome
+email
+senha
+ra_dig
+
+Tabela: admin
+id_admin
+usuario
+senha
+
+Tabela: emprestimo
+id_emprest
+nome (da tabela dos alunos)
+sobrenome (da tabela dos alunos)
+ra_dig (da tabela dos alunos)
+titulo_livro (da tabela dos livros)
+data_emprest
+data_devolver
+data_devolucao
+*/
+
+página de inicio
+login da gestão
+página de consulta
+login do aluno
+entre outras
