@@ -7,9 +7,9 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <title>Tela de login</title>
     <style>
-        body {
+          body {
             font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background:linear-gradient(to left, #7a60ff, #cd9ffa);;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -24,7 +24,7 @@
             border-radius: 15px;
             color: #fff;
             box-sizing: border-box;
-            text-align: center; /* Centraliza os elementos na coluna */
+            text-align: center;
         }
 
         input {
@@ -33,11 +33,14 @@
             outline: none;
             font-size: 15px;
             width: 90%;
-            margin-bottom: 20px; /* Espaçamento entre os inputs */
+            margin-bottom: 20px; 
+            border-radius: 6px;
+            border: 2px solid #440f7d;
+
         }
 
         .inputSubmit {
-            background-color: dodgerblue;
+            background-color:#7F00FF;
             border: none;
             padding: 15px;
             width: 100%;
@@ -47,14 +50,14 @@
         }
 
         .inputSubmit:hover {
-            background-color: deepskyblue;
+            background-color:#9c7cfc;
             cursor: pointer;
         }
 
         a {
             text-decoration: none;
             color: white;
-            border: 3px solid blue;
+            border: 2px solid white;
             border-radius: 10px;
             padding: 10px;
             display: block;
@@ -62,8 +65,14 @@
         }
 
         a:hover {
-            background-color: dodgerblue;
+            background-color:#7F00FF;
             color: black;
+        }
+
+        #senha-info {
+            color: #9c8ccc;
+            font-size: 12px;
+            margin-top: 5px;
         }
     </style>
 </head>

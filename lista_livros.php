@@ -397,7 +397,7 @@ include_once('sinopses.php');
                 box-sizing: border-box;
             }
             .aBotao:hover{
-                background-color: dodgerblue;
+                background-color: #8466fb;
                 color: black;
             }
             @media (min-width: 600px) {
