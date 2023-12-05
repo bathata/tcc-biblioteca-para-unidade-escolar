@@ -13,54 +13,61 @@
         }
     </script>
     <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+        
+        body{
+        font-family: Arial, Helvetica, sans-serif;
+            background:linear-gradient(to left, #7a60ff, #cd9ffa);
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
             margin: 0;
+            border: radius 5px;px;
+            max: width 500px;
+            margin: auto;
+            padding:2em;
+            border width: 20px;
+         
         }
 
         .login {
-            background-color: rgba(0, 0, 0, 0.6);
+            background-color:white;
             position: relative;
-            padding: 80px;
-            border-radius: 15px;
-            color: #fff;
+            padding: 70px;
+            border-radius:40px;
+            color: black;
             box-sizing: border-box;
             text-align: center;
         }
 
         input {
             padding: 15px;
-            border: none;
-            outline: none;
+            border: black;
             font-size: 15px;
             width: 90%;
-            margin-bottom: 20px; /* Espaçamento entre os inputs */
+            margin-bottom: 20px;
+            border-radius:5px;
+            background-color:#c2a2c8;
         }
 
         .inputSubmit {
-            background-color: dodgerblue;
+            background-color:#4b0082;
             border: none;
             padding: 15px;
             width: 100%;
             border-radius: 10px;
-            color: white;
+            color: black;
             font-size: 15px;
         }
 
         .inputSubmit:hover {
-            background-color: deepskyblue;
+            background-color: #c9a0dc;
             cursor: pointer;
         }
 
         a {
             text-decoration: none;
-            color: white;
-            border: 3px solid blue;
+            color: black;
+            border: 3px solid;
             border-radius: 10px;
             padding: 10px;
             display: block;
@@ -68,9 +75,10 @@
         }
 
         a:hover {
-            background-color: dodgerblue;
+            background-color:#c9a0dc;
             color: black;
         }
+
     </style>
 </head>
 <body>
