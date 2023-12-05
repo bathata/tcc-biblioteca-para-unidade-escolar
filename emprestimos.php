@@ -50,7 +50,7 @@ if (!isset($_SESSION['email'])) {
         <title>BIBLIOTECA | VICENTE LEPORACE</title>
         <style>
             body{
-                background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+                background:  linear-gradient(to left, #7a60ff, #cd9ffa);;
                 color: white;
                 text-align: center;
             }
@@ -70,15 +70,15 @@ if (!isset($_SESSION['email'])) {
                 text-decoration: none;
                 padding: 10px;
                 margin: 10px;
-                border: 1px solid #ccc;
+                border: 1px solid black;
                 border-radius: 5px;
                 text-align: center;
-                color: #333;
+                color: black;
                 background-color: #fff;
                 box-sizing: border-box;
             }
             .aBotao:hover{
-                background-color: dodgerblue;
+                background-color: #8466fb;
                 color: black;
             }
             @media (min-width: 600px) {

@@ -20,7 +20,7 @@ date_default_timezone_set('America/Sao_Paulo'); // Substitua 'America/Sao_Paulo'
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background-image:  linear-gradient(to left, #7a60ff, #cd9ffa);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -31,11 +31,12 @@ date_default_timezone_set('America/Sao_Paulo'); // Substitua 'America/Sao_Paulo'
         #book-info {
             text-align: center;
             color: white;
-            background-color: rgba(0, 0, 0, 0.3);
+            background-color:#9c8ccc;
             padding: 15px;
             border-radius: 15px;
             width: 30%;
             margin: 30px;
+            border:3px solid #440f7d ;
         }
 
         form {
@@ -44,6 +45,7 @@ date_default_timezone_set('America/Sao_Paulo'); // Substitua 'America/Sao_Paulo'
             padding: 15px;
             border-radius: 15px;
             width: 30%;
+            border:3px solid #440f7d ;
         }
 
         label {
@@ -60,7 +62,7 @@ date_default_timezone_set('America/Sao_Paulo'); // Substitua 'America/Sao_Paulo'
             border-radius: 5px;
             background: none;
             background: rgba(255, 255, 255, 0.5); /* Cor de fundo do select */
-            color: black;
+            color: white;
             outline: none;
         }
 
@@ -78,7 +80,7 @@ date_default_timezone_set('America/Sao_Paulo'); // Substitua 'America/Sao_Paulo'
         }
 
         input[type="submit"] {
-            background-image: linear-gradient(to right, rgb(0, 92, 197), rgb(90, 20, 220));
+            background-color:#8466fb;
             width: 100%;
             border: none;
             padding: 15px;
@@ -89,13 +91,13 @@ date_default_timezone_set('America/Sao_Paulo'); // Substitua 'America/Sao_Paulo'
         }
 
         input[type="submit"]:hover {
-            background-image: linear-gradient(to right, rgb(0, 80, 172), rgb(80, 19, 195));
+            background-color: #9c7cfc;
         }
 
         a {
             text-decoration: none;
             color: white;
-            border: 3px solid blue;
+            border: 3px solid black;
             border-radius: 10px;
             padding: 10px;
             display: block;
@@ -104,7 +106,7 @@ date_default_timezone_set('America/Sao_Paulo'); // Substitua 'America/Sao_Paulo'
         }
 
         a:hover {
-            background-color: dodgerblue;
+            background-color:#8466fb;
             color: black;
         }
     </style>
