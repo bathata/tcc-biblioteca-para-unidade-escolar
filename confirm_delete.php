@@ -50,7 +50,7 @@ if (isset($_GET['id_livro'])) {
     </script>
     <style>
         body {
-            background: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background:  linear-gradient(to left, #7a60ff, #cd9ffa);
             color: white;
             text-align: center;
         }

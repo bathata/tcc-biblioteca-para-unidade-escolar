@@ -365,11 +365,11 @@ include_once('sinopses.php');
                 border-radius: 5px;
                 text-align: center;
                 color: #333;
-                background-color: #fff;
+                background-color: #8466fb;
                 box-sizing: border-box;
             }
             .aBotao:hover{
-                background-color: dodgerblue;
+                background-color:#9c7cfc;
                 color: black;
             }
             @media (min-width: 600px) {

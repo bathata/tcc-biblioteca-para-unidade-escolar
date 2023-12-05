@@ -20,7 +20,7 @@ date_default_timezone_set('America/Sao_Paulo'); // Substitua 'America/Sao_Paulo'
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background-image: linear-gradient(to left, #7a60ff, #cd9ffa);;
             display: flex;
             align-items: center;
             justify-content: center;
