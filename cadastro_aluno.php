@@ -61,7 +61,7 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background:linear-gradient(to left, #7a60ff, #cd9ffa);
             font-size: 14px;
         }
         .box{
@@ -76,7 +76,8 @@
             width: 40%;
         }
         fieldset{
-            border: 3px solid dodgerblue;
+            border: 3px solid;
+            color:black;
         }
         legend{
             border: 1px solid dodgerblue;
@@ -135,11 +136,11 @@
             border-radius: 5px;
             text-align: center;
             color: #333;
-            background-color: #fff;
+            background-color: ##4b0082;
             box-sizing: border-box;
         }
         .aBotao:hover{
-            background-color: dodgerblue;
+            background-color: :#4b0082;
             color: black;
         }
         @media (min-width: 600px) {
@@ -150,15 +151,15 @@
         .aBotaoSpecial {
         text-align: center;
         border-radius: 10px;
-        background-color: dodgerblue;
-        color: white;
+        background-color:white;
+        color: black;
         display: inline-block;
         text-decoration: none;
         padding: 10px 20px;
         margin: 10px;
         }
         .aBotaoSpecial:hover {
-            background-color: #0050ac; /* Uma cor um pouco mais escura ao passar o mouse */
+            background-color: #c2a2c8; /* Uma cor um pouco mais escura ao passar o mouse */
         }
     </style>
 </head>
