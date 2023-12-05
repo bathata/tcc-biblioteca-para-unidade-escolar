@@ -59,9 +59,10 @@
         }
     </script>
     <style>
-        body{
+       
+       body{
             font-family: Arial, Helvetica, sans-serif;
-            background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+            background-image:  linear-gradient(to left, #7a60ff, #cd9ffa);
         }
         .box{
             color: white;
@@ -75,13 +76,13 @@
             width: 40%;
         }
         fieldset{
-            border: 3px solid dodgerblue;
+            border: 3px solid #9c7cfc;
         }
         legend{
-            border: 1px solid dodgerblue;
+            border: 1px solid black;
             padding: 10px;
             text-align: center;
-            background-color: dodgerblue;
+            background-color: #9c7cfc;
             border-radius: 8px;
         }
         .inputBox{
@@ -90,9 +91,9 @@
         .inputUser{
             background: none;
             border: none;
-            border-bottom: 1px solid white;
+            border-bottom: 2px solid white;
             outline: none;
-            color: white;
+            color: black;
             font-size: 15px;
             width: 100%;
             letter-spacing: 2px;
@@ -108,10 +109,10 @@
         .inputUser:valid ~ .labelInput{
             top: -20px;
             font-size: 12px;
-            color: dodgerblue;
+            color: #9c7cfc;
         }
         #submit{
-            background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+            background-color:#8466fb;
             width: 100%;
             border: none;
             padding: 15px;
@@ -121,17 +122,17 @@
             border-radius: 10px;
         }
         #submit:hover{
-            background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+            background-color: #9c7cfc;
         }
         a{
             text-decoration: none;
             color: white;
-            border: 3px solid blue;
+            border: 1px solid white;
             border-radius: 10px;
-            padding: 10px;
+            padding: 9px;
         }
         a:hover{
-            background-color: dodgerblue;
+            background-color: #8466fb;
         }
     </style>
 </head>
