@@ -59,10 +59,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Aluno</title>
     <style>
-        body{
+       
+       body{
             font-family: Arial, Helvetica, sans-serif;
-            background:linear-gradient(to left, #7a60ff, #cd9ffa);
-            font-size: 14px;
+            background-image:  linear-gradient(to left, #7a60ff, #cd9ffa);
         }
         .box{
             color: white;
@@ -76,14 +76,13 @@
             width: 40%;
         }
         fieldset{
-            border: 3px solid;
-            color:black;
+            border: 3px solid #9c7cfc;
         }
         legend{
-            border: 1px solid dodgerblue;
+            border: 1px solid black;
             padding: 10px;
             text-align: center;
-            background-color: dodgerblue;
+            background-color: #9c7cfc;
             border-radius: 8px;
         }
         .inputBox{
@@ -92,10 +91,10 @@
         .inputUser{
             background: none;
             border: none;
-            border-bottom: 1px solid white;
+            border-bottom: 2px solid white;
             outline: none;
-            color: white;
-            font-size: 12px;
+            color: black;
+            font-size: 15px;
             width: 100%;
             letter-spacing: 2px;
         }
@@ -109,11 +108,11 @@
         .inputUser:focus ~ .labelInput,
         .inputUser:valid ~ .labelInput{
             top: -20px;
-            font-size: 11px;
-            color: dodgerblue;
+            font-size: 12px;
+            color: #9c7cfc;
         }
         #submit{
-            background-image: linear-gradient(to right,rgb(0, 92, 197), rgb(90, 20, 220));
+            background-color:#8466fb;
             width: 100%;
             border: none;
             padding: 15px;
@@ -123,43 +122,17 @@
             border-radius: 10px;
         }
         #submit:hover{
-            background-image: linear-gradient(to right,rgb(0, 80, 172), rgb(80, 19, 195));
+            background-color: #9c7cfc;
         }
-        .aBotao{
-            flex: 1;
-            max-width: 300px;
+        a{
             text-decoration: none;
-            padding: 10px;
-            padding-bottom: 10px;
-            margin: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            text-align: center;
-            color: #333;
-            background-color: ##4b0082;
-            box-sizing: border-box;
+            color: white;
+            border: 1px solid white;
+            border-radius: 10px;
+            padding: 9px;
         }
-        .aBotao:hover{
-            background-color: :#4b0082;
-            color: black;
-        }
-        @media (min-width: 600px) {
-            .aBotao {
-                width: auto;
-            }
-        }
-        .aBotaoSpecial {
-        text-align: center;
-        border-radius: 10px;
-        background-color:white;
-        color: black;
-        display: inline-block;
-        text-decoration: none;
-        padding: 10px 20px;
-        margin: 10px;
-        }
-        .aBotaoSpecial:hover {
-            background-color: #c2a2c8; /* Uma cor um pouco mais escura ao passar o mouse */
+        a:hover{
+            background-color: #8466fb;
         }
     </style>
 </head>
