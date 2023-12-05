@@ -81,58 +81,55 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background:linear-gradient(to left, #7a60ff, #cd9ffa);
+            background:linear-gradient(to left, #7a60ff, #cd9ffa);;
             display: flex;
             justify-content: center;
             align-items: center;
+            height: 100vh;
             margin: 0;
-            border: radius 5px;px;
-            max: width 500px;
-            margin: auto;
-            padding:2em;
-            border width: 20px;
-         
         }
 
         .login {
-            background-color:white;
+            background-color: rgba(0, 0, 0, 0.6);
             position: relative;
-            padding: 70px;
-            border-radius:40px;
-            color: black;
+            padding: 80px;
+            border-radius: 15px;
+            color: #fff;
             box-sizing: border-box;
             text-align: center;
         }
 
         input {
             padding: 15px;
-            border: black;
+            border: none;
+            outline: none;
             font-size: 15px;
             width: 90%;
-            margin-bottom: 20px;
-            border-radius:5px;
-            background-color:#c2a2c8;
+            margin-bottom: 20px; 
+            border-radius: 6px;
+            border: 2px solid #440f7d;
+
         }
 
         .inputSubmit {
-            background-color:#4b0082;
+            background-color:#7F00FF;
             border: none;
             padding: 15px;
             width: 100%;
             border-radius: 10px;
-            color: black;
+            color: white;
             font-size: 15px;
         }
 
         .inputSubmit:hover {
-            background-color: #c9a0dc;
+            background-color:#9c7cfc;
             cursor: pointer;
         }
 
         a {
             text-decoration: none;
-            color: black;
-            border: 3px solid;
+            color: white;
+            border: 2px solid white;
             border-radius: 10px;
             padding: 10px;
             display: block;
@@ -140,12 +137,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
 
         a:hover {
-            background-color:#c9a0dc;
+            background-color:#7F00FF;
             color: black;
         }
 
         #senha-info {
-            color: dodgerblue;
+            color: #9c8ccc;
             font-size: 12px;
             margin-top: 5px;
         }
@@ -153,7 +150,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
     <div class='login'>
-        <h2>Atualizar Senha</h2>
+        <h1>Atualizar Senha</h1>
         <form action="atualizar_senha.php" method="POST" oninput="verificarForcaSenha()">
             <!-- Adicione um campo oculto para enviar o ra_dig junto com o formulário -->
             <input type="hidden" name="ra_dig" value="<?php echo $ra_dig; ?>">
