@@ -55,7 +55,6 @@
     <script>
         function fecharJanela() {
             window.close(); // Fecha a janela atual
-            window.opener.location.reload(); // Atualiza a página anterior
         }
     </script>
     <style>

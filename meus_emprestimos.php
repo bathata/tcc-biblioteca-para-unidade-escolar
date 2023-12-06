@@ -63,9 +63,12 @@ if (!isset($_SESSION['email'])) {
         <title>BIBLIOTECA | VICENTE LEPORACE</title>
         <style>
             body{
-                background:  linear-gradient(to left, #7a60ff, #cd9ffa);;
+                background: linear-gradient(to right, #7a60ff, #cd9ffa);
                 color: white;
                 text-align: center;
+            }
+            .bg-navbar{
+                background: rgba(210, 191, 191, 0.493);
             }
             .table-bg{
                 background: rgba(0, 0, 0, 0.3);
@@ -75,19 +78,29 @@ if (!isset($_SESSION['email'])) {
             .box-search{
                 display: flex;
                 justify-content: center;
-                gap: .1%;
+                gap: .0.5%;
             }
             .aBotao{
-            text-decoration: none;
-            color: white;
-            border: 3px solid #8466fb;
-            border-radius: 10px;
-            padding: 10px;
-            background - color:#8466fb
+                flex: 1;
+                max-width: 300px; /* Define a largura máxima para evitar que os botões fiquem muito largos */
+                text-decoration: none;
+                padding: 10px;
+                margin: 10px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                text-align: center;
+                color: #333;
+                background-color: #fff;
+                box-sizing: border-box;
             }
             .aBotao:hover{
-                background-color: #9c7cfc;
-                color:  white;
+                background-color: #8466fb;
+                color: black;
+            }
+            @media (min-width: 600px) {
+                .aBotao {
+                    width: auto;
+                }
             }
             #counter {
             font-size: 16px;
@@ -97,12 +110,9 @@ if (!isset($_SESSION['email'])) {
         </style>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">SISTEMA BIBLIOTECA</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
             </div>
             <div class="d-flex">
                 <a href="sairAluno.php" class="btn btn-danger me-5">Sair</a>

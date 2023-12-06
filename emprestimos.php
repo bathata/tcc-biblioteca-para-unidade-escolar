@@ -54,6 +54,9 @@ if (!isset($_SESSION['email'])) {
                 color: white;
                 text-align: center;
             }
+            .bg-navbar{
+                background: rgba(210, 191, 191, 0.493);
+            }
             .table-bg{
                 background: rgba(0, 0, 0, 0.3);
                 border-radius: 15px 15px 0 0;
@@ -98,12 +101,9 @@ if (!isset($_SESSION['email'])) {
         </style>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">SISTEMA BIBLIOTECA</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
             </div>
             <div class="d-flex">
                 <a href="sair.php" class="btn btn-danger me-5">Sair</a>

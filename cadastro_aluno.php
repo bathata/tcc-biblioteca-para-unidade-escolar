@@ -171,7 +171,7 @@
                 <br>
                 <input type="submit" name="submit" id="submit" value="Cadastrar">
                 <br><br><br>
-                <a href="" class="aBotaoSpecial">Voltar</a>
+                <a href="index.html" class="aBotaoSpecial">Voltar</a>
                 <a href="login_aluno.php" class="aBotaoSpecial">Login</a>
                 <br>
             </fieldset>
